@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ShenduOS/android" />
+  <project path="android" name="hejiann/ShenduOS" remote="shendu" revision="jellybean" />
 
   <project path="abi/cpp" name="ShenduOS/android_abi_cpp" />
   <project path="bionic" name="ShenduOS/android_bionic" />
