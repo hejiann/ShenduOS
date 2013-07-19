@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <remote  name="shendu"
+  <remote  name="github"
            fetch=".."
            review="review.shenduos.com" />
 
@@ -12,7 +12,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/jellybean"
-           remote="shendu"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="hejiann/ShenduOS" remote="shendu" revision="jellybean" />
+  <project path="android" name="hejiann/ShenduOS" remote="github" revision="jellybean" />
 
   <project path="abi/cpp" name="ShenduOS/android_abi_cpp" />
   <project path="bionic" name="ShenduOS/android_bionic" />
